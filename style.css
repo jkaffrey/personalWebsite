@@ -160,8 +160,10 @@
   height: 400px;
   margin-left: 51px;
   background-color: #F3EFDF;
-  margin-bottom: 50px;
-  margin-top: -5px;
+  margin-bottom: -10px;
+  margin-top: -20px;
+  position: relative;
+  bottom: -10px;
 }
 
 #mainInfo h2 {
@@ -170,6 +172,13 @@
   margin: 7px;
   font-family: Arial;
   text-transform: lowercase;
+  color: #C33149;
+  text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
 }
 
 #mainInfo p {

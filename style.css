@@ -162,6 +162,14 @@
   margin-left: 51px;
   background-color: #F3EFDF;
   margin-bottom: 50px;
+  margin-top: -5px;
+}
+
+#mainInfo h2 {
+
+  padding: 7px;
+  margin: 7px;
+  font-family: Arial;
 }
 
 body {

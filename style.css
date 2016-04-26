@@ -170,6 +170,14 @@
   padding: 7px;
   margin: 7px;
   font-family: Arial;
+  text-transform: lowercase;
+}
+
+#mainInfo p {
+
+  font-family: Arial;
+  padding: 7px;
+  padding-left: 10px;
 }
 
 body {

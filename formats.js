@@ -1,5 +1,3 @@
-var iHeight = $(".small").width() + 16;
-
 $(document).ready(function() {
 
     $(".small").hover(function() {

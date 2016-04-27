@@ -1,0 +1,28 @@
+a.selected {
+  background-color:#1F75CC;
+  color:black;
+  z-index:100;
+}
+
+.messagepop {
+  background-color:#FFFFFF;
+  border:1px solid #999999;
+  cursor:default;
+  display:none;
+  margin-top: -225px;
+  margin-left: -100px;
+  position:absolute;
+  left: 0px;
+  text-align:left;
+  width:230px;
+  z-index:50;
+  padding: 25px 25px 20px;
+  font-size: 12px;
+}
+
+.messagepop p {
+  font-family: Arial;
+  border-bottom: 1px solid #EFEFEF;
+  margin: 8px 0;
+  padding-bottom: 8px;
+}

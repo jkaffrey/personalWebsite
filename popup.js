@@ -26,10 +26,6 @@ $(function() {
   });
 });
 
-/*
-* Adding our own function to jquery by the name of slideFadeToggle
-* Similar to jQuery.prototype but uses the $ alias
-*/
 $.fn.slideFadeToggle = function(easing, callback) {
 
   return this.animate({ opacity: 'toggle', height: 'toggle' }, 'fast', easing, callback);

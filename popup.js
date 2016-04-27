@@ -28,7 +28,7 @@ $(function() {
 
 /*
 * Adding our own function to jquery
-* Similar to jQuery.fn but uses the $ alias
+* Similar to jQuery.prototype but uses the $ alias
 */
 $.fn.slideFadeToggle = function(easing, callback) {
 

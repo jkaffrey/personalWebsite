@@ -26,8 +26,9 @@ $(function() {
   });
 });
 
-/* create an alias to slideFadeToggle
-* toggle is bult within the function
+/*
+* Adding our own function to jquery
+* Similar to jQuery.fn but uses the $ alias
 */
 $.fn.slideFadeToggle = function(easing, callback) {
 
